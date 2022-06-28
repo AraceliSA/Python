@@ -3,8 +3,24 @@ Realiza un cuaderno de Python en Jupiter con el nombre Ejercicio1.ipynb
 Dentro vaamos a resolver los siguientes problemas:
 
 1. Una línea de código que  muestre la fecha de hoy.
+# o
+from datetime import date
+from datetime import datetime
+date.today()
+print (date.today())
+print("Hoy es", date.today())
+today = date.today()
+now = datetime.now()
+print (today)
+print("La  fecha de hoy es", today)
+print(now)
 
 2. Construir un convertidor de unidades de centimetros a metros (el formato del resultado deberá ser: X cm son igual a X metros, según el usuarios ingrese la cantidad a convertir).
+# o
+print ("'Convertidor de centimetros a metros'")
+numero = float (input("Ingresa un número en centimetros: "))
+resultado = numero/100
+print ("El resultado es: ",resultado,"metros")
 
 3. Exploremos cómo podemos crear un programa que pueda calcular la distancia entre dos planetas EN KILOMETROS Y EN MILLAS. Comenzaremos usando dos distancias de planetas al sol: Tierra (149.597.870 km) y Júpiter (778.547.200 km). Calcular cuanta distancia hay en kilometos y en millas entre estos dos planetas.
 
