@@ -7,6 +7,10 @@ Realiza los ejercicios de acuerdo a las indicaciones
 
 Escribir un programa que convierta un valor dado en grados Fahrenheit a grados
 Celsius.
+print("Dame la temperatura en grados fahrenheit")
+fa= input("")
+ce=(fa-32)/1.8000
+print('La temperatura en grados centigrados es: 'ce)
 
 2.2 Ejercicio 2 (1.5 puntos)
 
